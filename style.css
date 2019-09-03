@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+.myCV .page {
+	padding: 0mm;
+	position: relative;	
+}
+
+.myCV .subpage {
+	padding: 0mm;	
+}
+
+#body {
+	padding: 8mm 6mm;
+	font-size: 13px;
+	line-height: 1.4em;
+	font-weight: 400;
+	color: #333;
+	font-family: 'Source Code Pro', Arial, sans-serif;
+}
+
+.main-1 {
+	float: left;
+	width: 66.6666666667%;
+}
+
+.main-2 {
+	float: left;
+	width: 33.3333333333%;
+}
+
+.main-3 {
+	float: left;
+	width: 50%;
+}
+
+#group-header {
+	margin-bottom: 20px;
+}
+
+#profile-avatar-wraper {
+	display: inline-block;
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	border: 2px solid #333;
+	float: left;
+	margin: 7px 0px 0px 7px;
+}
+
+#profile-avatar {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+#profile-fullname-wraper {
+	margin-bottom: 5px;
+	padding-top: 30px;
+}
+
+#profile-fullname {
+	font-size: 32px;
+	line-height: 1em;
+	font-weight: 500;
+	padding-left: 7px;
+}
+
+#profile-title-wraper {
+
+}
+
+#profile-title {
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 7px;
+}
+
+#profile .contact-item {
+	position: relative;
+	font-weight: 500px;
+	margin-bottom: 1px;
+	text-align: right;
+	word-break: break-word;
+}
+
+.group-block {
+	margin-bottom: 20px;
+	padding: 7px;
+}
+
+.block-header {
+	position: relative;
+	margin-bottom: 3px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #959595;
+}
+
+.block-header span {
+	text-transform: uppercase;
+	padding-left: 4px;
+}
+
+.block-body {
+	word-break: break-word;
+	padding-left: 0px;
+}
+
+.education-title,
+.experience-position,
+.activity-position {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.education-school,
+.experience-company,
+.activity-organization {
+	font-weight: 700;
+	font-size: 15px;
+}
+
+#education .row,
+#experience .row,
+#activity .row {
+	margin-bottom: 15px;
+}
+
+.skillrate-bar {
+	width: 100%;
+	height: 7px;
+	position: relative;
+}
+
+.skillrate-value {
+	width: 80%;
+	height: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	background-color: #333;
+}
+
+.skillrate-bar[bval="1"] .skillrate-value {
+	width: 60%;
+}
+
+.skillrate-bar[bval="2"] .skillrate-value {
+	width: 50%;
+}
+
+#profile {
+	margin-bottom: 0;
+}
+
+#profile-phone,
+#profile-email {
+	min-width: 180px;
+}
+
+#project-table .row {
+	margin-bottom: 20px;
+}
+
+.project-title {
+	padding-bottom: 2px;
+}
+
+.project-title h4 {
+	font-size: 15px;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.project-title .time {
+	display: inline-block;
+}
+
+.project-details table {
+	width: 100%;
+	border-top: 1px dashed #ccc;
+}
+
+.project-details th {
+	border-bottom: 1px dashed #ccc;
+	border-right: 1px dashed #ccc;
+}
+
+.project-details td {
+	border-bottom: 1px dashed #ccc;
+}
+
+.project-details th,
+.project-details td {
+	padding: 5px;
+}
+
+.project-details th {
+	width: 33.3333333333%;
+	font-weight: 600;
+	text-align: left;
+}
+
+.project-details td {
+	width: 100%;
+}
+
+#interest-table .row {
+	margin-bottom: 5px;
+}
+
+.project-details th {
+	vertical-align: middle;
+}
+
+.skillrate-title {
+    font-weight: 600;
+}
