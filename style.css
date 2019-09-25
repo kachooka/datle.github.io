@@ -37,7 +37,7 @@
 	margin-bottom: 20px;
 }
 
-#profile-avatar-wraper {
+#profile-avatar-wrapper {
 	display: inline-block;
 	height: 110px;
 	width: 110px;
@@ -53,7 +53,7 @@
 	border-radius: 50%;
 }
 
-#profile-fullname-wraper {
+#profile-fullname-wrapper {
 	margin-bottom: 5px;
 	padding-top: 30px;
 }
@@ -65,7 +65,7 @@
 	padding-left: 7px;
 }
 
-#profile-title-wraper {
+#profile-title-wrapper {
 
 }
 
